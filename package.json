@@ -44,3 +44,8 @@
     "node": ">=18.0.0"
   }
 }
+{
+  "scripts": {
+    "build": "mkdir -p public && find . -maxdepth 1 -name '*.html' -exec cp {} public/ \\; && find . -maxdepth 1 -name '*.css' -exec cp {} public/ \\; && find . -maxdepth 1 -name '*.js' -exec cp {} public/ \\; && echo '✅ Files copied to public directory'"
+  }
+}
