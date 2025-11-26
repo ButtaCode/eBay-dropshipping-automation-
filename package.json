@@ -2,23 +2,44 @@
   "name": "ebay-dropshipping-automation",
   "version": "1.0.0",
   "description": "Automated eBay dropshipping with $100-150 profit margins",
-  "main": "public/index.html",
+  "type": "module",
   "scripts": {
-    "build": "echo 'Building eBay Dropshipping App' && mkdir -p public",
-    "dev": "echo 'Development mode'",
-    "start": "echo 'Start script'"
+    "build": "mkdir -p public && echo '🚀 Building eBay Dropshipping Automation' && echo '✅ Build complete - Output: public/'",
+    "dev": "echo '💻 Development mode - Use live server'",
+    "start": "echo '🎯 Start script - Deployed on Vercel'",
+    "deploy": "git add . && git commit -m 'Deploy update' && git push",
+    "clean": "rm -rf public && mkdir public",
+    "test": "echo '✅ No tests specified' && exit 0"
   },
   "dependencies": {
     "axios": "^1.6.0",
-    "mongodb": "^5.8.0"
+    "mongodb": "^5.8.0",
+    "jsonwebtoken": "^9.0.2",
+    "node-cron": "^3.0.2",
+    "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
   },
   "keywords": [
     "ebay",
-    "dropshipping", 
-    "automation"
+    "dropshipping",
+    "automation",
+    "mongodb",
+    "vercel",
+    "profit-automation",
+    "ecommerce"
   ],
   "author": "ButtaCode",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ButtaCode/ebay-dropshipping-automation-"
+  },
+  "bugs": {
+    "url": "https://github.com/ButtaCode/ebay-dropshipping-automation-/issues"
+  },
+  "homepage": "https://github.com/ButtaCode/ebay-dropshipping-automation-#readme",
   "engines": {
     "node": ">=18.0.0"
   }
