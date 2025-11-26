@@ -1,21 +1,12 @@
 {
   "name": "dropship-automation",
   "version": "1.0.0",
-  "description": "Automated eBay dropshipping with $100-150 profit margins",
-  "main": "index.js",
   "scripts": {
-    "build": "echo '🚀 Building eBay Dropshipping Automation' && mkdir -p public",
-    "dev": "netlify dev",
-    "start": "netlify dev"
+    "build": "echo 'Building for Vercel' && mkdir -p public",
+    "dev": "echo 'Development mode'"
   },
   "dependencies": {
     "axios": "^1.6.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^5.8.0",
-    "node-cron": "^3.0.2",
-    "querystring": "^0.2.1"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "mongodb": "^5.8.0"
   }
 }
