@@ -4,11 +4,9 @@
   "description": "Automated eBay dropshipping with $100-150 profit margins",
   "main": "index.js",
   "scripts": {
-    "build": "echo '🚀 Building eBay Dropshipping Automation System' && mkdir -p public && echo '✅ Build complete - Public folder created'",
+    "build": "echo '🚀 Building eBay Dropshipping Automation' && mkdir -p public",
     "dev": "netlify dev",
-    "start": "netlify dev",
-    "test": "echo 'No tests specified' && exit 0",
-    "functions:serve": "netlify functions:serve"
+    "start": "netlify dev"
   },
   "dependencies": {
     "axios": "^1.6.0",
@@ -17,20 +15,7 @@
     "node-cron": "^3.0.2",
     "querystring": "^0.2.1"
   },
-  "keywords": [
-    "ebay",
-    "dropshipping",
-    "automation",
-    "netlify",
-    "mongodb"
-  ],
-  "author": "ButtaCode",
-  "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ButtaCode/eBay-dropshipping-automation-"
   }
 }
