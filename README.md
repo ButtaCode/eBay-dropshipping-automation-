@@ -19,3 +19,4 @@ Automated eBay dropshipping system with $100-150 profit margins per sale.
 ## Manual Setup
 
 ### Environment Variables
+MONGODB_URI=mongodb+srv://buttababy:Wewewe13@butta122.mongodb.net/dropship_automation?retryWrites=true&w=majority EBAY_APP_ID=671b333e-cd6c-43f6-9b2a-0a016ff3c016 EBAY_CERT_ID=SBX-a3051206fa8e-e0b5-4b4a-8bd4-e8b4
